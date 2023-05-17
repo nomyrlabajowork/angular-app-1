@@ -1,0 +1,27 @@
+<h1>Item 1</h1>
+<p>City</p>
+<input id="data1" type="text" /><br />
+<p>Country</p>
+<input id="data2" type="text" /><br />
+<p>Population</p>
+<input id="data3" type="number" /><br /><br />
+<button
+  onclick="addPlace(document.getElementById('data1').value, document.getElementById('data2').value, document.getElementById('data3').value)"
+>
+  Add City
+</button>
+
+<hr />
+
+<input type="text" id="searchTextfield" /><br />
+<br />
+<button onclick="searchData(document.getElementById('searchTextfield').value)">
+  Search</button
+><br />
+
+<div id="statsList"></div>
+<hr />
+<script>
+  var exports = { __esModule: { value: true } };
+</script>
+<script src="./index.js"></script>
